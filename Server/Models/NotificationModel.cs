@@ -1,12 +1,9 @@
-using CodeGin.Models;
-
+namespace CodeGin.Models;
+public class Notification 
 {
-  public class Notification 
-  {
-    public Guild Id { get; set; }
-    public Guild UserId { get; set; }
-    public string Type { get; set; }
-    public string Content { get; set; }
-    public DateTime DateNotification { get; set; }
-  }
+  public Guid Id { get; set; }
+  public Guid UserId { get; set; }
+  public string? Type { get; set; }
+  public string? Content { get; set; }
+  public DateTime DateNotification { get; set; }
 }

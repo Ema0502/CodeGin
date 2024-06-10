@@ -1,11 +1,8 @@
-using CodeGin.Models;
-
+namespace CodeGin.Models;
+public class Reaction 
 {
-  public class Reaction 
-  {
-    public Guild Id { get; set; }
-    public Guild PublicationId { get; set; }
-    public Guild UserId { get; set; }
-    public string Type { get; set; }
-  }
+  public Guid Id { get; set; }
+  public Guid PublicationId { get; set; }
+  public Guid UserId { get; set; }
+  public string? Type { get; set; }
 }
