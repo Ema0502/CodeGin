@@ -1,7 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using CodeGin.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Add DbContext service with SQL Server provider
+builder.Services.AddDbContext<CodeGinContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
