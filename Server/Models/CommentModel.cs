@@ -1,8 +1,10 @@
-namespace CodeGin.Models;
-public class Comment
+namespace CodeGin.Models
 {
-  public Guid Id { get; set; }
-  public Guid UserId { get; set; }
-  public string? Content { get; set; }
-  public DateTime CreatedComment { get; set; }
+  public class Comment
+  {
+    public Guid Id { get; set; }
+    public Guid UserId { get; set; }
+    public string? Content { get; set; }
+    public DateTime CreatedComment { get; set; }
+  }
 }
