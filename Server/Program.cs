@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using CodeGin.Data;
+using NSwag.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +11,30 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<CodeGinContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Swagger middleware
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddOpenApiDocument(config =>
+{
+    config.DocumentName = "CodeGin";
+    config.Title = "CodeGin";
+    config.Version = "v1";
+});
+
 var app = builder.Build();
+
+// Enabling Swagger to return json document
+// ! Remove swagger in production to avoid exposing data
+if (app.Environment.IsDevelopment())
+{
+    app.UseOpenApi();
+    app.UseSwaggerUi(config =>
+    {
+        config.DocumentTitle = "CodeGin";
+        config.Path = "/swagger";
+        config.DocumentPath = "/swagger/{documentName}/swagger.json";
+        config.DocExpansion = "list";
+    });
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

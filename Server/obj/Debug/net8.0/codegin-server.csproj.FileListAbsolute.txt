@@ -251,3 +251,16 @@ D:\SoyHenry - Cursada\Proyectos\CodeGin\Server\obj\Debug\net8.0\refint\codegin-s
 D:\SoyHenry - Cursada\Proyectos\CodeGin\Server\obj\Debug\net8.0\codegin-server.pdb
 D:\SoyHenry - Cursada\Proyectos\CodeGin\Server\obj\Debug\net8.0\codegin-server.genruntimeconfig.cache
 D:\SoyHenry - Cursada\Proyectos\CodeGin\Server\obj\Debug\net8.0\ref\codegin-server.dll
+D:\SoyHenry - Cursada\Proyectos\CodeGin\Server\bin\Debug\net8.0\Namotion.Reflection.dll
+D:\SoyHenry - Cursada\Proyectos\CodeGin\Server\bin\Debug\net8.0\NJsonSchema.dll
+D:\SoyHenry - Cursada\Proyectos\CodeGin\Server\bin\Debug\net8.0\NJsonSchema.Annotations.dll
+D:\SoyHenry - Cursada\Proyectos\CodeGin\Server\bin\Debug\net8.0\NJsonSchema.NewtonsoftJson.dll
+D:\SoyHenry - Cursada\Proyectos\CodeGin\Server\bin\Debug\net8.0\NJsonSchema.Yaml.dll
+D:\SoyHenry - Cursada\Proyectos\CodeGin\Server\bin\Debug\net8.0\NSwag.Annotations.dll
+D:\SoyHenry - Cursada\Proyectos\CodeGin\Server\bin\Debug\net8.0\NSwag.AspNetCore.dll
+D:\SoyHenry - Cursada\Proyectos\CodeGin\Server\bin\Debug\net8.0\NSwag.Core.dll
+D:\SoyHenry - Cursada\Proyectos\CodeGin\Server\bin\Debug\net8.0\NSwag.Core.Yaml.dll
+D:\SoyHenry - Cursada\Proyectos\CodeGin\Server\bin\Debug\net8.0\NSwag.Generation.dll
+D:\SoyHenry - Cursada\Proyectos\CodeGin\Server\bin\Debug\net8.0\NSwag.Generation.AspNetCore.dll
+D:\SoyHenry - Cursada\Proyectos\CodeGin\Server\bin\Debug\net8.0\YamlDotNet.dll
+D:\SoyHenry - Cursada\Proyectos\CodeGin\Server\obj\Debug\net8.0\codegin-server.MvcApplicationPartsAssemblyInfo.cs
