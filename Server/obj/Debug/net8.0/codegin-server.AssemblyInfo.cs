@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("codegin-server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a27fcbb87d7d76419bcfc8f93dd1101514598960")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8256e45aaf757d0547d565d1d8ead77692a6f5f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("codegin-server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("codegin-server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

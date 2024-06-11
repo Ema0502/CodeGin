@@ -48,8 +48,15 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+// app.UseRateLimiter();
+// app.UseRequestLocalization();
+app.UseCors();
 
+app.UseAuthentication();
 app.UseAuthorization();
+app.UseSession();
+// app.UseResponseCompression();
+// app.UseResponseCaching();
 
 app.MapControllerRoute(
     name: "default",
